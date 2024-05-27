@@ -1,5 +1,5 @@
 import React from "react";
-import "./login.css";
+import "./login.scss";
 import lgi from "./lgi-head-logo.png";
 import reGo from "./reGo.png"
 import { useNavigate } from "react-router-dom"; 
@@ -10,7 +10,7 @@ const LoginComponent = () => {
 
   const onSubmit = () => {
     
-    navigate("/home"); 
+    navigate("/"); 
   };
   return (
     <div>
